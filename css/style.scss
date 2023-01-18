@@ -24,6 +24,7 @@ body {
   #container {
     display: flex;
     justify-content: center;
+    min-height: 100vh;
     margin-top: 62px;
 
     .card {
@@ -48,22 +49,22 @@ body {
             text-align: center;
             margin: 0 34px;
 
-            h3{
+            h1{
                 color: $dark-blue;
-                font-size: 20px;
+                font-size: 1.25rem;
                 padding: 18px 0;
             }
 
             p{
                 color: $grayish-blue;
-                font-size: 14px;
+                font-size: 0.87rem;
                 padding-bottom: 18px;
 
             }
 
             span{
                 color: $grayish-blue;
-                font-size: 10px;
+                font-size: 0.62rem;
                 margin: 0 -34px;
 
                 a{

@@ -16,6 +16,7 @@ body {
 body #container {
   display: flex;
   justify-content: center;
+  min-height: 100vh;
   margin-top: 62px;
 }
 body #container .card {
@@ -38,19 +39,19 @@ body #container .card main {
   text-align: center;
   margin: 0 34px;
 }
-body #container .card main h3 {
+body #container .card main h1 {
   color: #1f3251;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 18px 0;
 }
 body #container .card main p {
   color: #7b879d;
-  font-size: 14px;
+  font-size: 0.87rem;
   padding-bottom: 18px;
 }
 body #container .card main span {
   color: #7b879d;
-  font-size: 10px;
+  font-size: 0.62rem;
   margin: 0 -34px;
 }
 body #container .card main span a {
